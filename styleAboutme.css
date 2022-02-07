@@ -1,0 +1,155 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(225, 225, 228);
+    margin: auto;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url("./img/background_2.png");
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
+ .content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+ }
+ .content h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: 1px 1px 10px black, 0 0 1em rgb(3, 3, 3);
+ }
+
+/* --------------------ABOUT ME------------------------*/
+.content-avatar {
+    text-align: center;
+}
+.content-avatar img{
+    width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.content-button {
+    margin-top: 10px;
+    text-align: center;
+}
+.content-button button{
+    text-decoration:none;
+    color: aliceblue;
+    background: none;
+    border: 2px solid #5d4c9bb9;
+    width: 100px;
+    height: 30px;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.content-text {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    /* border: 1px solid; */
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #78a8f160;
+}
+@media (min-width: 1200px) {
+    .content-avatar img{
+        width: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .content-text {
+        text-align: center;
+        font-size: 55px;
+        max-width: 800px;
+    }
+ }
+ @media (min-width: 900px) {
+    .content-avatar img{
+        width: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .content-text {
+        text-align: center;
+        color: aliceblue;
+        font-size: 35px;
+        max-width: 600px;
+    }
+ }
+ @media (max-width: 900px) {
+    .content-avatar img{
+        width: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .content-text {
+        text-align: center;
+        color: aliceblue;
+        font-size: 35px;
+        max-width: 600px;
+    }
+ }
+@media (max-width: 700px) {
+    .content-avatar img{
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .content-text {
+        text-align: center;
+        color: aliceblue;
+        font-size: 35px;
+        max-width: 400px;
+    }
+ }
+ @media (max-width: 450px) {
+    .content-avatar img{
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .content-text {
+        text-align: center;
+        color: aliceblue;
+        font-size: 25px;
+        max-width: 300px;
+    }
+ }
+ @media (max-width: 700px)  and (orientation: landscape) {
+    .content-avatar img{
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .content-text {
+        text-align: center;
+        color: aliceblue;
+        font-size: 15px;
+        max-width: 300px;
+    }
+ }
+ @media (max-width: 900px)  and (orientation: landscape) {
+    .content-avatar img{
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .content-text {
+        text-align: center;
+        color: aliceblue;
+        font-size: 15px;
+        max-width: 300px;
+    }
+ }
