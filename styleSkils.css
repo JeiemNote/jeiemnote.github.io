@@ -85,7 +85,7 @@ body{
         overflow: auto;
     }
     .item-head-tittle {
-        height: 25px;
+        min-height: 25px;
         width: 250px;
     }
     .item-head-text {
@@ -100,7 +100,7 @@ body{
         overflow: auto;
     }
     .item-head-tittle {
-        height: 25px;
+        min-height: 25px;
         width: 250px;
     }
     .item-head-text {
@@ -115,7 +115,7 @@ body{
         overflow: auto;
     }
     .item-head-tittle {
-        height: 25px;
+        min-height: 25px;
         width: 250px;
     }
     .item-head-text {
@@ -130,7 +130,7 @@ body{
         overflow: auto;
     }
     .item-head-tittle {
-        height: 25px;
+        min-height: 25px;
         width: 250px;
     }
     .item-head-text {
@@ -145,7 +145,7 @@ body{
         overflow: auto;
     }
     .item-head-tittle {
-        height: 25px;
+        min-height: 25px;
         width: 250px;
     }
     .item-head-text {
